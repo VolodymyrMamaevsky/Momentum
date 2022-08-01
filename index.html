@@ -9,7 +9,7 @@
     <title>Momentum</title>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="player delay">
         <div class="player-controls-container">
           <div class="player-controls">
@@ -19,25 +19,41 @@
           </div>
           <div class="player-advanced-controls">
             <div class="player-progress">
-              <div class="player-track-info">
-                <div class="player-progress-info">
-                  <input
-                    type="range"
-                    class="progress-bar input-range"
-                    name="progress-bar"
-                    id="progress-bar"
-                    value="0"
-                    min="0"
-                    max="100"
-                    step="0.01"
-                  />
-                </div>
+              <div class="player-track-info"></div>
+              <div class="player-progress-info">
+                <input
+                  type="range"
+                  class="progress-bar input-range"
+                  name="progress-bar"
+                  id="progress-bar"
+                  value="0"
+                  min="0"
+                  max="100"
+                  step="0.01"
+                />
+                <span class="player-time-info">.</span>
               </div>
+            </div>
+            <div class="player-volume">
+              <button class="mute"></button>
+              <input type="range" class="volume input-range" name="volume" id="volume" value="50" min="0" max="100" step="0.5" />
             </div>
           </div>
         </div>
+        <ul class="play-list"></ul>
       </div>
-    </div>
+      <div class="weather delay">
+        <input type="text" class="city" placeholder="Minsk" />
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </header>
     <script src="js/script.js"></script>
   </body>
 </html>
