@@ -531,9 +531,7 @@ select {
 }
 
 .copyright {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  text-align: end;
   flex-basis: 240px;
 }
 .copyright a {
@@ -542,10 +540,6 @@ select {
 }
 .copyright a:hover {
   opacity: 1;
-}
-
-.year {
-  line-height: 23px;
 }
 
 .github img {
@@ -629,9 +623,6 @@ select {
     width: 30px;
     height: 30px;
     background-size: 30px 30px;
-  }
-  .year {
-    display: none;
   }
   .rsschool img {
     margin-right: 60px;

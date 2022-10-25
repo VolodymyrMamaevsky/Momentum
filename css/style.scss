@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Arial-MT";
-  src: url("../assets/fonts/Arial-MT.woff");
+  font-family: 'Arial-MT';
+  src: url('../assets/fonts/Arial-MT.woff');
 }
 
 * {
@@ -11,12 +11,12 @@
 
 body {
   min-height: 100vh;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
   color: #fff;
   text-align: center;
   background: center/cover, rgba(0, 0, 0, 0.5);
-  background-image: url("../assets/img/bg.jpg");
+  background-image: url('../assets/img/bg.jpg');
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
   overflow: hidden;
@@ -93,7 +93,7 @@ body {
   width: 24px;
   height: 24px;
   background-size: 24px 24px;
-  background-image: url("../assets/svg/volume-high.svg");
+  background-image: url('../assets/svg/volume-high.svg');
   margin-right: 8px;
   cursor: pointer;
   transform: translateY(25%);
@@ -176,19 +176,19 @@ body {
     opacity: 1;
   }
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 2px;
     width: 22px;
     height: 22px;
     background-size: 22px 22px;
-    background-image: url("../assets/svg/play.svg");
+    background-image: url('../assets/svg/play.svg');
   }
 }
 
 .play-item.pause::before {
-  background-image: url("../assets/svg/pause.svg");
+  background-image: url('../assets/svg/pause.svg');
 }
 
 .item-active {
@@ -226,19 +226,19 @@ body {
   width: 40px;
   height: 40px;
   background-size: 40px 40px;
-  background-image: url("../assets/svg/play.svg");
+  background-image: url('../assets/svg/play.svg');
 }
 
 .play.pause {
-  background-image: url("../assets/svg/pause.svg");
+  background-image: url('../assets/svg/pause.svg');
 }
 
 .play-prev {
-  background-image: url("../assets/svg/play-prev.svg");
+  background-image: url('../assets/svg/play-prev.svg');
 }
 
 .play-next {
-  background-image: url("../assets/svg/play-next.svg");
+  background-image: url('../assets/svg/play-next.svg');
 }
 
 .weather {
@@ -308,18 +308,18 @@ body {
 
 .slide-prev {
   left: 20px;
-  background-image: url("../assets/svg/slider-prev.svg");
+  background-image: url('../assets/svg/slider-prev.svg');
 }
 
 .slide-next {
   right: 20px;
-  background-image: url("../assets/svg/slider-next.svg");
+  background-image: url('../assets/svg/slider-next.svg');
 }
 
 .time {
   min-height: 124px;
   margin-bottom: 10px;
-  font-family: "Arial-MT";
+  font-family: 'Arial-MT';
   font-size: 100px;
   letter-spacing: -4px;
 }
@@ -374,7 +374,7 @@ body {
 
 .change-quote {
   margin-bottom: 30px;
-  background-image: url("../assets/svg/reload.svg");
+  background-image: url('../assets/svg/reload.svg');
 }
 
 .quote {
@@ -495,7 +495,7 @@ select {
   transition: 0.2s;
   margin-left: 10px;
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     top: 1px;
     left: 1px;
@@ -517,9 +517,7 @@ select {
 }
 
 .copyright {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  text-align: end;
   flex-basis: 240px;
   a {
     opacity: 0.8;
@@ -528,10 +526,6 @@ select {
       opacity: 1;
     }
   }
-}
-
-.year {
-  line-height: 23px;
 }
 
 .github img {
@@ -628,10 +622,6 @@ select {
     width: 30px;
     height: 30px;
     background-size: 30px 30px;
-  }
-
-  .year {
-    display: none;
   }
 
   .rsschool img {

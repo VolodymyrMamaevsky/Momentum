@@ -36,14 +36,23 @@
             </div>
             <div class="player-volume">
               <button class="mute"></button>
-              <input type="range" class="volume input-range" name="volume" id="volume" value="50" min="0" max="100" step="0.5" />
+              <input
+                type="range"
+                class="volume input-range"
+                name="volume"
+                id="volume"
+                value="50"
+                min="0"
+                max="100"
+                step="0.5"
+              />
             </div>
           </div>
         </div>
         <ul class="play-list"></ul>
       </div>
       <div class="weather delay">
-        <input type="text" class="city" placeholder="Minsk" />
+        <input type="text" class="city" placeholder="Kyiv" />
         <i class="weather-icon owf"></i>
         <div class="weather-error"></div>
         <div class="description-container">
@@ -82,7 +91,6 @@
             <li>
               <label class="input-label label-image" for="image-source">Image source:</label>
               <select name="image-source" id="image-source" class="image-source">
-                <option value="github">GitHub</option>
                 <option value="unsplash">Unsplash API</option>
                 <option value="flickr">Flickr API</option>
               </select>
@@ -144,12 +152,10 @@
         </div>
       </div>
       <div class="copyright">
-        <div class="year">2022</div>
-        <div class="rsschool">
-          <a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rs_school_white.svg" alt="RS School logo" /></a>
-        </div>
         <div class="github">
-          <a href="https://github.com/VladimirMamaevsky" target="_blank"><img src="./assets/svg/github.svg" alt="GitHub logo" /></a>
+          <a href="https://github.com/VladimirMamaevsky" target="_blank"
+            ><img src="./assets/svg/github.svg" alt="GitHub logo"
+          /></a>
         </div>
       </div>
     </footer>
