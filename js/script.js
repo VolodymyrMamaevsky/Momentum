@@ -493,26 +493,26 @@ i18next.init({
 		},
 		ru: {
 			translation: {
-				lng: 'ru',
-				locale: 'ru-RU',
-				'name-placeholder': '[Введите имя]',
-				'city-placeholder': 'Киев',
-				'wind speed': 'Скорость ветра',
+				lng: 'ua',
+				locale: 'ua-UA',
+				'name-placeholder': "[Введіть ім'я]",
+				'city-placeholder': 'Київ',
+				'wind speed': 'Швидкість вітра',
 				'm-s': 'м/с',
-				humidity: 'Влажность',
-				'good afternoon': 'Добрый день',
-				'good morning': 'Доброе утро',
-				'good evening': 'Добрый вечер',
-				'good night': 'Спокойной ночи',
-				Language: 'Язык приложения',
-				'Image source': 'Источник изображений',
-				'Tags for background': 'Теги для изображений',
-				'Show time': 'Показывать время',
-				'Show date': 'Показывать дату',
-				'Show greeting': 'Показывать приветствие',
-				'Show quote of the day': 'Показывать цитату дня',
-				'Show weather forecast': 'Показывать прогноз погоды',
-				'Show audio player': 'Показывать аудио плеер',
+				humidity: 'Вологість',
+				'good afternoon': 'Добрий день',
+				'good morning': 'Добрий ранок',
+				'good evening': 'Добрий вечір',
+				'good night': 'На добраніч',
+				Language: 'Мова застосунку',
+				'Image source': 'Джерело зображення',
+				'Tags for background': 'Теги для зображення',
+				'Show time': 'Показувати час',
+				'Show date': 'Показувати дату',
+				'Show greeting': 'Показувати вітання',
+				'Show quote of the day': 'Показувати цитату дня',
+				'Show weather forecast': 'Показувати прогноз погоди',
+				'Show audio player': 'Показувати аудіоплеєр ',
 			},
 		},
 	},
@@ -604,8 +604,3 @@ setBg();
 window.addEventListener('load', getWeather);
 getQuotes();
 handleTrackInfo();
-
-let consoleGreeting =
-	'Приветствую!\nВыполнил все пункты ТЗ, а также убрал дефолтную музыку и поставил несколько других треков';
-
-console.log(consoleGreeting);
