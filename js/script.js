@@ -494,10 +494,10 @@ i18next.init({
 		ru: {
 			translation: {
 				lng: 'ua',
-				locale: 'ua-UA',
+				locale: 'uk',
 				'name-placeholder': "[Введіть ім'я]",
 				'city-placeholder': 'Київ',
-				'wind speed': 'Швидкість вітра',
+				'wind speed': 'Швидкість вітру',
 				'm-s': 'м/с',
 				humidity: 'Вологість',
 				'good afternoon': 'Добрий день',
